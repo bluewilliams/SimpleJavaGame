@@ -6,9 +6,9 @@ Stack
 -------
 *Java :: jdk-11.0.1_windows-x64_bin [https://download.oracle.com/otn-pub/java/jdk/11.0.1+13/90cf5d8f270a4347a95050320eef3fb7/jdk-11.0.1_windows-x64_bin.zip]
 *Maven :: apache-maven-3.6.0 [http://apache.claz.org/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip]
-*Build :: Jenkins
+*Build :: Jenkins [https://jenkins.io/doc/book/installing/#windows]
 *Unit test: JUnit
-*IDE: IntelliJ community
+*IDE: IntelliJ community [done]
 *Bug tracking: GitHub
 
 Goal:
@@ -47,3 +47,5 @@ Packaging:
 1. mvn package
 
 MarkDown CheatSheet - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+CRON time : https://crontab.guru/
