@@ -14,6 +14,7 @@ Stack
 * Java :: jdk-11.0.1_windows-x64_bin [https://download.oracle.com/otn-pub/java/jdk/11.0.1+13/90cf5d8f270a4347a95050320eef3fb7/jdk-11.0.1_windows-x64_bin.zip]
 * Maven :: apache-maven-3.6.0 [http://apache.claz.org/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip]
 * Build :: Jenkins [https://jenkins.io/doc/book/installing/#windows]
+.. * add windows environment variables for git paths, C:\Program Files\Git\cmd;C:\Program Files\Git\usr\bin;
 * Unit test: JUnit
 * IDE: IntelliJ community [done]
 * Bug tracking: GitHub
@@ -24,11 +25,11 @@ Things to do:
 1. Java reading blue and vel (pluralsight).
 2. Decide on Game libraries
 3. setup local computer for compile + build
- ..* vel and blue's laptop
+ .. * vel and blue's laptop
 4. setup local computer for unit tests
- ..* vel and blue's laptop
+ .. * vel and blue's laptop
 5. setup QA environment
- ..* Azure Cloud
+ .. * Azure Cloud
 6. Identify Java architecture.
 
 
