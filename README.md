@@ -1,22 +1,22 @@
 # SimpleJavaGame
 A simple Java game for Vel and Blue, by Vel and Blue :)
 
-
-Stack
--------
-*Java :: jdk-11.0.1_windows-x64_bin [https://download.oracle.com/otn-pub/java/jdk/11.0.1+13/90cf5d8f270a4347a95050320eef3fb7/jdk-11.0.1_windows-x64_bin.zip]
-*Maven :: apache-maven-3.6.0 [http://apache.claz.org/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip]
-*Build :: Jenkins [https://jenkins.io/doc/book/installing/#windows]
-*Unit test: JUnit
-*IDE: IntelliJ community [done]
-*Bug tracking: GitHub
-
 Goal:
 -----
 1. Simple Snake? Game
 2. Build Rules
 3. Build Algorithms
 4. Build unit tests
+
+
+Stack
+-------
+* Java :: jdk-11.0.1_windows-x64_bin [https://download.oracle.com/otn-pub/java/jdk/11.0.1+13/90cf5d8f270a4347a95050320eef3fb7/jdk-11.0.1_windows-x64_bin.zip]
+* Maven :: apache-maven-3.6.0 [http://apache.claz.org/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip]
+* Build :: Jenkins [https://jenkins.io/doc/book/installing/#windows]
+* Unit test: JUnit
+* IDE: IntelliJ community [done]
+* Bug tracking: GitHub
 
 Things to do:
 -------------
