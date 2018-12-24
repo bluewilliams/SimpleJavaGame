@@ -5,12 +5,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 @DisplayName("Here is a suite")
-public class GameLogicTests {
+class GameLogicTests {
     @Nested
     class HelloGameTests {
         @Test
         @DisplayName("A test")
-        public void someTests() {
+        void someTests() {
             assertAll(
             () -> {
                 //first test
