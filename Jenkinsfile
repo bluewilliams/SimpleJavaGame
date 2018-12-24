@@ -1,12 +1,17 @@
 pipeline{
     agent any
     stages {
-        stage ('build') {
+        stage ('download dependencies') {
             steps {
-                sh 'echo build java program!'
+                sh 'mvn clean'
             }
         }
-        stage ('unit tests') {
+        stage ('compile program') {
+            steps {
+                sh 'mvn compile -e'
+            }
+        }
+        stage ('run unit tests') {
             steps {
                 sh 'echo RUN Unit test !'
             }
