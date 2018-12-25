@@ -15,7 +15,10 @@ Stack
 * Maven :: apache-maven-3.6.0 [http://apache.claz.org/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip]
 * Build :: Jenkins [https://jenkins.io/doc/book/installing/#windows]
 .. * add windows environment variables for git paths, C:\Program Files\Git\cmd;C:\Program Files\Git\usr\bin;
-* Unit test: JUnit
+* Unit test: JUnit [https://junit.org/junit5/docs/current/user-guide/#running-tests-build-maven]
+* * [https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit-platform.html]
+* * surefire plugin [https://maven.apache.org/surefire/maven-surefire-plugin/usage.html]
+* * file name => *Tests.java
 * IDE: IntelliJ community [done]
 * Bug tracking: GitHub
 

@@ -13,7 +13,7 @@ pipeline{
         }
         stage ('run unit tests') {
             steps {
-                sh 'echo RUN Unit test !'
+                sh 'mvn clean test'
             }
         }
     }
