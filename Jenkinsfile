@@ -1,14 +1,9 @@
 pipeline{
     agent any
     stages {
-        stage ('download dependencies') {
-            steps {
-                sh 'mvn clean'
-            }
-        }
         stage ('compile program') {
             steps {
-                sh 'mvn compile -e'
+                sh 'mvn clean compile -e'
             }
         }
         stage ('run unit tests') {
