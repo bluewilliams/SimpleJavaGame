@@ -12,21 +12,20 @@ class GameLogicTests {
         @DisplayName("A test")
         void someTests() {
             assertAll(
-            () -> {
-                //first test
-                final String expected = "Hello Game";
-                final String result = GameLogic.helloGame();
+                    () -> {
+                        //first test
+                        final String expected = "Hello Game";
+                        final String result = GameLogic.helloGame();
 
-                assertEquals(expected, result);
-            },
-            () -> {
-                //second test
-                final String notExpected = "Yabba Dabba Doo";
-                final String result = GameLogic.helloGame();
+                        assertEquals(expected, result);
+                    },
+                    () -> {
+                        //second test
+                        final String notExpected = "Yabba Dabba Doo";
+                        final String result = GameLogic.helloGame();
 
-                assertNotEquals(notExpected, result);
-            });
+                        assertNotEquals(notExpected, result);
+                    });
         }
     }
 }
-
